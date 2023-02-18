@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--color-white);
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+/* .item + .item {
+  margin-top: 10px;
+} */
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--color-red);
+}
+
+.green {
+  background-color: var(--color-green);
+}
+
+.avatar {
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-secondary-text);
+  border-radius: 10px;
+}
+
+.name {
+  margin-left: 20px;
+  font-size: 40px;
+}
