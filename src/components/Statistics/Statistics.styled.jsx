@@ -42,7 +42,7 @@ export const Label = styled.span`
   font-size: 16px;
 `;
 
-export const Percent = styled.span`
+export const Percentage = styled.span`
   margin-top: 10px;
   font-size: 22px;
 `;

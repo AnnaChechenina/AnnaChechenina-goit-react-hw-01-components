@@ -5,7 +5,7 @@ import {
   StatList,
   Item,
   Label,
-  Percent,
+  Percentage,
 } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
@@ -13,11 +13,11 @@ export const Statistics = ({ title, stats }) => {
     <Container>
       {title && <Title>{title}</Title>}
       <StatList>
-        {stats.map(({ id, label, percent }) => {
+        {stats.map(({ id, label, percentage }) => {
           return (
             <Item key={id}>
               <Label>{label}</Label>
-              <Percent>{percent}%</Percent>
+              <Percentage>{percentage}%</Percentage>
             </Item>
           );
         })}
@@ -31,7 +31,7 @@ Statistics.propTypes = {
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
-      percent: PropTypes.number.isRequired,
+      percentage: PropTypes.number.isRequired,
     })
   ),
 };
