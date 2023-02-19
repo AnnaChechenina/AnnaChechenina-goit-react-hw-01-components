@@ -15,4 +15,3 @@ FriendsListItem.propTypes = {
   name: PropTypes.string.isRequired,
   isOnline: PropTypes.bool.isRequired,
 };
-//  className={clsx(css.status, (isOnline && css.green).toString())}

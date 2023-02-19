@@ -22,7 +22,7 @@ export const Title = styled.h2`
 `;
 
 export const StatList = styled.ul`
-  background-color: ${props => props.theme.colors.stats};
+  background-color: ${props => props.theme.colors.light};
   display: flex;
   justify-content: center;
 `;

@@ -7,9 +7,9 @@
   border-radius: 5px;
 }
 
-/* .item + .item {
+.item + .item {
   margin-top: 10px;
-} */
+}
 
 .status {
   width: 20px;

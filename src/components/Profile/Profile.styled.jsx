@@ -21,7 +21,7 @@ export const Avatar = styled.img`
   height: 150px;
   border: 1px solid black;
   border-radius: 50%;
-  background-color: ${props => props.theme.colors.stats};
+  background-color: ${props => props.theme.colors.light};
 `;
 
 export const Name = styled.p`
@@ -48,7 +48,7 @@ export const Stats = styled.ul`
   margin-top: 30px;
   padding: 15px;
   height: 100px;
-  background-color: ${props => props.theme.colors.stats};
+  background-color: ${props => props.theme.colors.light};
   display: flex;
   justify-content: center;
   li {

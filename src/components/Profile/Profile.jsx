@@ -21,9 +21,9 @@ export const Profile = ({
   return (
     <Container>
       <Description>
-        <Avatar src={avatar} alt={username} />
+        <Avatar src={avatar} alt="User avatar" />
         <Name>{username}</Name>
-        <Tag>@{tag}</Tag>
+        <Tag>`@{tag}`</Tag>
         <Location>{location}</Location>
       </Description>
       <Stats>
