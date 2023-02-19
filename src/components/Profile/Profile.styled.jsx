@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-  width: 300px;
+  width: 400px;
   border: 1px solid;
+  border-color: blueviolet;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;

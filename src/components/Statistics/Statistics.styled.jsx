@@ -5,6 +5,7 @@ export const Container = styled.section`
   width: 400px;
   border: 1px solid;
   border-radius: 5px;
+  border-color: blueviolet;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +35,6 @@ export const Item = styled.li`
   justify-content: center;
   padding: 15px;
   flex-basis: calc(100% / 4);
-  border-radius: 5px;
   background-color: ${props => getRandomHexColor()};
 `;
 
